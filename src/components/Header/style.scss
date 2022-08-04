@@ -1,0 +1,15 @@
+@import "../../styles/placeholder.scss";
+
+.header {
+  background-image: url("../../../public/assets/desktop/bg-pattern-header.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 100px;
+  @extend %flex-sb-c;
+  height: 200px;
+
+  &__top {
+    @extend %container;
+    @extend %flex-sb-c;
+  }
+}
