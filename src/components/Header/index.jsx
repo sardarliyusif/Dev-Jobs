@@ -1,4 +1,5 @@
 import React from "react";
+import { Search } from "../Search";
 import { Switch } from "../Switch";
 import "./style.scss";
 
@@ -13,7 +14,9 @@ export const Header = ({ darkMode, setDarkMode }) => {
         />
         <Switch isDark={darkMode} setIsDark={setDarkMode} />
       </section>
-      <section className="header__search"></section>
+      <section className="header__search">
+        < Search/>
+      </section>
     </header>
   );
 };

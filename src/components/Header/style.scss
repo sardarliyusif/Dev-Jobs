@@ -7,6 +7,7 @@
   border-bottom-left-radius: 100px;
   @extend %flex-sb-c;
   height: 200px;
+  flex-direction: column;
 
   &__top {
     @extend %container;
