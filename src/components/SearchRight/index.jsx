@@ -2,18 +2,13 @@ import "./style.scss"
 
 import React from 'react'
 import { SearchButton } from "../SearchButton"
+import { SearchFullTime } from "../SearchFullTime"
 
 export const SearchRight = () => {
   return (
-    <div>
+    <div className="search-right">
         
-        <input 
-            id="full-time-only"
-            type="checkbox"
-        />
-        <label htmlFor="full-time-only">
-            Full Time Only
-        </label>
+        <SearchFullTime/>
         <SearchButton/>
     </div>
   )

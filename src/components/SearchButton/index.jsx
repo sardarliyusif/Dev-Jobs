@@ -3,7 +3,7 @@ import "./style.scss"
 
 export const SearchButton = () => {
   return (
-    <button>
+    <button className='search-button'>
         Search
     </button>
   )

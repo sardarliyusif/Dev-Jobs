@@ -4,9 +4,9 @@ import { FilterByTitle } from '../FilterByTitle'
 import { SearchRight } from '../SearchRight'
 import "./style.scss"
 
-export const Search = () => {
+export const Search = ({darkMode}) => {
   return (
-    <div className="search">
+    <div className={`search ${darkMode ? "dark" : "light"}`}>
       <FilterByTitle/>
       <FilterByLoc/>
       <SearchRight/>

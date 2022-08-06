@@ -1,0 +1,9 @@
+@import "../../styles/placeholder.scss";
+
+.main{
+    @extend %container;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 40px 30px;
+}

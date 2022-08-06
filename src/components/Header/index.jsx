@@ -15,7 +15,7 @@ export const Header = ({ darkMode, setDarkMode }) => {
         <Switch isDark={darkMode} setIsDark={setDarkMode} />
       </section>
       <section className="header__search">
-        < Search/>
+        < Search darkMode={darkMode} />
       </section>
     </header>
   );

@@ -1,0 +1,10 @@
+.filter-by-title-input{
+    width: 280px;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    margin-left: 1rem;
+    &:focus{
+        outline: none;
+    }
+}
