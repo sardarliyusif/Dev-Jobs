@@ -4,6 +4,7 @@
   @extend %flex-sb-c;
   gap: 16px;
   cursor: pointer;
+  
 
   &__moon,
   &__sun {
@@ -36,4 +37,5 @@
       }
     }
   }
+
 }

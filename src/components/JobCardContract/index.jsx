@@ -1,8 +1,9 @@
 import React from 'react'
+import "./style.scss"
 
 export const JobCardContract = ({contract}) => {
   return (
-    <div>{contract}</div>
+    <div className='job-card-contract'>{contract}</div>
   )
 }
 

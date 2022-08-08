@@ -1,4 +1,10 @@
-.filter-loc-icon{
-    width: 20px;
-    height: 20px;
+.filter-loc-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 480px) {
+  .filter-loc-icon {
+    display: none;
+  }
 }

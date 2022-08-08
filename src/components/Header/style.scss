@@ -14,3 +14,16 @@
     @extend %flex-sb-c;
   }
 }
+
+@media (max-width : 768px) {
+  .header{
+    background-image: url("../../../public/assets/tablet/bg-pattern-header.svg");
+    
+  }
+}
+
+@media (max-width : 480px) {
+  .header{
+    background-image: url("../../../public/assets/mobile/bg-pattern-header.svg");
+  }
+}

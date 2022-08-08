@@ -1,7 +1,8 @@
 import React from 'react'
+import "./style.scss"
 
-export const JobCardPosition = ({position}) => {
+export const JobCardPosition = ({darkMode , position}) => {
   return (
-    <div>{position}</div>
+    <div className={`job-card-position ${darkMode ? "dark-color" : "white-color"}`}>{position}</div>
   )
 }

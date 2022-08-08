@@ -7,9 +7,9 @@ import "./style.scss"
 export const Search = ({darkMode}) => {
   return (
     <div className={`search ${darkMode ? "dark" : "light"}`}>
-      <FilterByTitle/>
-      <FilterByLoc/>
-      <SearchRight/>
+      <FilterByTitle darkMode = {darkMode}/>
+      <FilterByLoc darkMode = {darkMode}/>
+      <SearchRight darkMode = {darkMode}/>
     </div>
   )
 }

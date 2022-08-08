@@ -1,9 +1,10 @@
 import React from 'react'
+import "./style.scss"
 
 
 export const JobCardLocation = ({location}) => {
   return (
-    <div>{location}</div>
+    <div className='job-card-location'>{location}</div>
   )
 }
 

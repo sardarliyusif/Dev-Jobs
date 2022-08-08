@@ -3,7 +3,7 @@ import "./style.scss"
 
 export const JobCardPostedAt = ({postedAt}) => {
   return (
-    <div>{postedAt}</div>
+    <div className='job-card-posted-at'>{postedAt}</div>
   )
 }
 

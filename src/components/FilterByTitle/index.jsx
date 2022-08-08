@@ -4,11 +4,11 @@ import React from 'react'
 import { FilterByTitleIcon } from "../FilterByTitleIcon"
 import { FilterByTitleInput } from "../FilterByTitleInput"
 
-export const FilterByTitle = () => {
+export const FilterByTitle = ({darkMode}) => {
   return (
     <div className="filter-by-title">
         <FilterByTitleIcon/>
-        <FilterByTitleInput/>
+        <FilterByTitleInput darkMode = {darkMode} />
     </div>
   )
 }

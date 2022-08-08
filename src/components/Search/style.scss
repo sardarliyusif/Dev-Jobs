@@ -9,9 +9,15 @@
     
 }
 
-.dark{
-    background-color: #19202D;
-}
-.light{
-    background-color: white;
-}
+@media (max-width : 768px) {
+    .search{
+      width: 689px;
+      
+    }
+  }
+  
+  @media (max-width : 480px) {
+    .search{
+      width: 327px;
+    }
+  }
