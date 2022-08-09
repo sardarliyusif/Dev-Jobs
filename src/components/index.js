@@ -1,6 +1,6 @@
 export * from "./Header";
-export * from "./JobCard";
-export * from "./Switch";
+export * from "./Main";
+export * from "./Footer";
 
 // import { Header } from "./Header";
 // export { Header };

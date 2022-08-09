@@ -1,13 +1,28 @@
 import React from "react";
+
 import "./style.scss";
-import data from "../../data/data.json";
 import { JobCard } from "../JobCard";
 
-export const Main = ({ darkMode}) => {
+export const Main = ({ darkMode , data , num , setClassNamed}) => {
+  
   return (
     <main className="main">
-      {data.map((element) => {
-        return <JobCard darkMode={darkMode}  key = {element.id} logo={element.logo} logoBackground = {element.logoBackground} postedAt={element.postedAt} contract = {element.contract} position = {element.position} company = {element.company} location = {element.location} />;
+      {data.filter((_,i) => i<num ).map((element) => {
+        return (
+          <JobCard
+            data = {element}
+            darkMode={darkMode}
+            key={element.id}
+            logo={element.logo}
+            logoBackground={element.logoBackground}
+            postedAt={element.postedAt}
+            contract={element.contract}
+            position={element.position}
+            company={element.company}
+            setClassNamed = {setClassNamed}
+            location={element.location}
+          />
+        );
       })}
     </main>
   );
