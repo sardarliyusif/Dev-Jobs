@@ -2,7 +2,7 @@
     background-color: #19202D;
 }
 .light{
-    background-color: white;
+    background-color: white !important;
 }
 
 .dark-text-color{
@@ -11,4 +11,12 @@
 
 .light-text-color{
     color: rgba($color: #19202D, $alpha: 0.2);
+}
+
+.dark-color{
+    color: white;
+}
+
+.light-color{
+    color: #19202D;
 }
