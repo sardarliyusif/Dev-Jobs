@@ -13,7 +13,7 @@ export const JobTitle = ({element , darkMode}) => {
             <p className='company-website-name'>{element?.website.replace("https://","")}</p>
           </div>
           <div className='company-site-link'>
-            <a href={`${element?.website}`} className = {darkMode ? "link-dark" : "link-light"} >Company Site</a>
+            <a href={`${element?.website}`} className = {darkMode ? "link-dark" : "link-light"} style = {{width : "100%" , height : "100%"}} >Company Site</a>
           </div>
         </div>
     </div>

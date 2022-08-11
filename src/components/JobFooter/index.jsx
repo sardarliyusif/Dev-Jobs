@@ -3,6 +3,6 @@ import "./style.scss"
 
 export const JobFooter = ({element}) => {
   return (
-    <div>JobFooter</div>
+    <div style={{opacity : "0"}}>1</div>
   )
 }

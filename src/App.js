@@ -11,7 +11,7 @@ function App() {
   const [classNamed , setClassNamed] = useState(true);
 
   return (
-    <div className={`app ${darkMode ? "dark" : "light"}`}>
+    <div className={`app ${darkMode ? "dark" : "milk"}`}>
       <Routes>
         <Route
           path="/"

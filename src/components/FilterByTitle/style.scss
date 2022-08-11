@@ -5,3 +5,15 @@
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .filter-by-title {
+      width: 30%;
+    }
+}
+
+// @media (max-width: 480px) {
+//     .filter-loc-icon {
+//       display: none;
+//     }
+// }

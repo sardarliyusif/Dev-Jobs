@@ -1,0 +1,26 @@
+.job-description {
+  padding: 3rem;
+  margin-bottom: 5rem;
+  & > * {
+    margin-bottom: 40px;
+  }
+}
+
+.job-color-light {
+  color: #6e8098;
+  line-height: 26px;
+}
+.job-color-dark {
+  color: #9daec2;
+  line-height: 26px;
+}
+.job-title-color-dark,
+.job-title-color-light {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+.job-title-color-light {
+  color: #19202d;
+}
