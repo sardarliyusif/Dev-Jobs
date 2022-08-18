@@ -9,7 +9,7 @@ export const Main = ({ darkMode, data, num, setClassNamed, fullTime , filterTitl
       {data
         .filter((item) => {
           return(
-            item.position.toUpperCase().includes(filterTitle) || item.company.toUpperCase().includes(filterTitle)
+            item.position.toUpperCase().includes(filterTitle) || item.company.toUpperCase().includes(filterTitle) || item.location.toUpperCase().includes(loc) 
           )
         })
         .filter((item) => item.location.includes(loc) || loc == "FilterBy" )

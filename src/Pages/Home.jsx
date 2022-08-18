@@ -14,6 +14,7 @@ export const Home = ({
 }) => {
   const [filterTitle, setFilterTitle] = useState("")
   const [loc , setLoc] = useState("")
+  classNamed = true
   return (
     <>
       <Header darkMode={darkMode} setFilterTitle = {setFilterTitle} setTime = {setFullTime} setLoc = {setLoc} setDarkMode={setDarkMode} setClassNamed = {setClassNamed} classNamed = {classNamed} />
