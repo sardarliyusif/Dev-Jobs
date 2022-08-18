@@ -22,5 +22,9 @@
 @media (max-width: 480px) {
   .filter-by-title-input {
     width: 105px;
+    &::placeholder{
+      font-size: 10px;
+    }
   }
+
 }

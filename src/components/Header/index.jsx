@@ -4,7 +4,7 @@ import { Search } from "../Search";
 import { Switch } from "../Switch";
 import "./style.scss";
 
-export const Header = ({ darkMode, setDarkMode , setClassNamed , classNamed}) => {
+export const Header = ({ darkMode, setDarkMode , setClassNamed , classNamed , setTime , setFilterTitle ,setLoc}) => {
   function handleSetName () {
     setClassNamed(true)
   }
@@ -20,7 +20,7 @@ export const Header = ({ darkMode, setDarkMode , setClassNamed , classNamed}) =>
         <Switch isDark={darkMode} setIsDark={setDarkMode} />
       </section>
       <section className={classNamed ? "header__search" : "display-none"}>
-        < Search darkMode={darkMode} />
+        < Search darkMode={darkMode} setTime = {setTime} setFilterTitle={setFilterTitle} setLoc = {setLoc}/>
       </section>
     </header>
   );

@@ -11,7 +11,7 @@ import "./style.scss";
 export const JobDescription = ({ element , darkMode }) => {
   return (
     <div className={`job-description ${darkMode ? "dark" : "light"}`}>
-      <div style={{display : "flex" , justifyContent : "space-between" , alignItems : "center"}}>
+      <div className="nameless" style={{display : "flex" , justifyContent : "space-between" , alignItems : "center"}}>
         <div>
         <JobConPost element={element} />
         <JobPosition darkMode = {darkMode} element = {element}/>

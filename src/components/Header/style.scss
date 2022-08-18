@@ -22,12 +22,14 @@
 @media (max-width : 768px) {
   .header{
     background-image: url("../../../public/assets/tablet/bg-pattern-header.svg");
-    
+    height: 160px;
   }
 }
 
 @media (max-width : 480px) {
   .header{
     background-image: url("../../../public/assets/mobile/bg-pattern-header.svg");
+    height: 136px;
+    border-bottom-left-radius: 0;
   }
 }

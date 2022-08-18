@@ -8,3 +8,11 @@
         background-color: #939BF4;
     }
 }
+
+@media (max-width: 480px) {
+    .job-apply-btn{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+  }

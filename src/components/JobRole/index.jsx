@@ -20,7 +20,7 @@ export const JobRole = ({ element, darkMode }) => {
         style={{ paddingLeft: "1rem", marginTop: "24px"  }}
       >
         {element?.role.items.map((item) => (
-          <li style={{ listStyleType : "i" , paddingLeft: "1rem" }}>{item}</li>
+          <li key={item} style={{ listStyleType : "i" , paddingLeft: "1rem" }}>{item}</li>
         ))}
       </ol>
     </div>

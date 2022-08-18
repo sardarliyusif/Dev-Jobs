@@ -9,7 +9,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [jobCardNum, setJobCardNum] = useState(12);
   const [classNamed , setClassNamed] = useState(true);
-
+  const [fullTime, setFullTime] = useState(false)
   return (
     <div className={`app ${darkMode ? "dark" : "milk"}`}>
       <Routes>
@@ -21,6 +21,8 @@ function App() {
               darkMode={darkMode}
               setDarkMode={setDarkMode}
               data={data}
+              setFullTime = {setFullTime}
+              fullTime = {fullTime}
               jobCardNum={jobCardNum}
               setJobCardNum={setJobCardNum}
               setClassNamed = {setClassNamed}

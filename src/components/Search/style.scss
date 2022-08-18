@@ -1,23 +1,22 @@
-.search{
-    width: 1110px;
-    height: 71px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -30px;
-    border-radius: 6px;
-    
+.search {
+  width: 1110px;
+  height: 71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -30px;
+  border-radius: 6px;
 }
 
-@media (max-width : 768px) {
-    .search{
-      width: 689px;
-      
-    }
+@media (max-width: 768px) {
+  .search {
+    width: 689px;
   }
-  
-  @media (max-width : 480px) {
-    .search{
-      width: 327px;
-    }
+}
+
+@media (max-width: 480px) {
+  .search {
+    width: 100%;
+    margin: -0 auto -30px auto;
   }
+}

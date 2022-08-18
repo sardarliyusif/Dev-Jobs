@@ -12,8 +12,9 @@
     }
 }
 
-// @media (max-width: 480px) {
-//     .filter-loc-icon {
-//       display: none;
-//     }
-// }
+@media (max-width: 480px) {
+    .filter-by-title {
+      width: 60%;
+      padding: 1rem;
+    }
+}
